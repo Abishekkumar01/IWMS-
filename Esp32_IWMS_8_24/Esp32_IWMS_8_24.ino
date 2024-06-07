@@ -6,6 +6,7 @@
 
 const char* ssid = "MASTER"; // Enter your WIFI SSID
 const char* password = "luckydumpy"; // Enter your WIFI Password
+const char* password = "lucky";
 
 #define BOTtoken "6457478878:AAG1fhdmBBkmNXQyUJEhOrPe06liq3f55qc"
 #define CHAT_ID "795644234"
@@ -61,6 +62,7 @@ float distance_calc(int trigPin, int echoPin) {
   digitalWrite(trigPin, HIGH);
   delayMicroseconds(10);
   digitalWrite(trigPin, LOW);
+  
 
   // Measure the duration of the pulse on the echo pin
   long duration = pulseIn(echoPin, HIGH);
