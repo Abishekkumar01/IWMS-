@@ -6,7 +6,7 @@
 
 const char* ssid = "MASTER"; // Enter your WIFI SSID
 const char* password = "luckydumpy"; // Enter your WIFI Password
-const char* password = "lucky";
+
 
 #define BOTtoken "6457478878:AAG1fhdmBBkmNXQyUJEhOrPe06liq3f55qc"
 #define CHAT_ID "795644234"
